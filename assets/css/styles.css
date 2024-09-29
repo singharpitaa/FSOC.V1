@@ -389,7 +389,7 @@ img{
 }
 
 .app__store{
-  width: 120px;
+  width: 500px;
   margin: 0 var(--mb-1);
 }
 
@@ -426,7 +426,7 @@ img{
 }
 
 .footer__social{
-  font-size: 1.5rem;
+  font-size: 7.5rem;
   color: var(--title-color);
   margin-right: var(--mb-2);
 }
