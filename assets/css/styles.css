@@ -207,7 +207,13 @@ img{
 .show-menu{
   top: var(--header-height);
 }
-
+.menu__container.bd-grid {
+  display: flex;
+  column-gap: 206px;
+}
+img.menu__img {
+  transform: translateX(3px);
+}
 /* Active menu */
 .active-link{
   color: var(--first-color);
