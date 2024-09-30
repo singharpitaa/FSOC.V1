@@ -386,6 +386,8 @@ img{
 
 .app__stores{
   margin-bottom: var(--mb-4);
+  height: 200px;
+  width: 200px;
 }
 
 .app__store{
