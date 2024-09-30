@@ -108,7 +108,6 @@ img{
   transform: translate(114px, 77px);
 
 }
-
 /*========== CLASS CSS ==========*/
 .section{
   padding: 4rem 0 2rem;
@@ -391,7 +390,7 @@ img{
 }
 
 .app__store{
-  width: 500px;
+  width: 169px;
   margin: 0 var(--mb-1);
 }
 
