@@ -105,8 +105,9 @@ a{
 img{
   max-width: 100%;
   height: auto;
-}
+  transform: translate(114px, 77px);
 
+}
 /*========== CLASS CSS ==========*/
 .section{
   padding: 4rem 0 2rem;
@@ -270,13 +271,13 @@ img{
   width: 300px;
   justify-self: center;
 }
-
-/*========== BUTTONS ==========*/
+                             
+/*========== BUTTONS ==========*/                                        
 .button{
   display: inline-block;
   background-color: var(--first-color);
   color: #FFF;
-  padding: .75rem 1rem;
+  padding: 3.75rem 3rem;
   border-radius: .5rem;
   transition: .3s;
 }
@@ -329,7 +330,6 @@ img{
 
 /*========== MENU ==========*/
 .menu__container{
-  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
 }
 
@@ -389,7 +389,7 @@ img{
 }
 
 .app__store{
-  width: 500px;
+  width: 169px;
   margin: 0 var(--mb-1);
 }
 
@@ -420,7 +420,9 @@ img{
   margin: .25rem 0 var(--mb-3);
 }
 .footer__social{
+
   font-size: 30px;
+
   color: var(--title-color);
   margin-right: var(--mb-2);
 }
@@ -512,7 +514,6 @@ img{
   }
 
   .menu__container{
-    grid-template-columns: repeat(3, 210px);
     column-gap: 4rem;
   }
   .menu__content{
