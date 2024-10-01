@@ -283,11 +283,10 @@ img.menu__img {
   display: inline-block;
   background-color: var(--first-color);
   color: #FFF;
-  padding: 5px;
+  padding: 15px;
   border-radius: .5rem;
   transition: .3s;
-  width: 100px;
-  height: 30px;
+
 }
 
 .button:hover{
