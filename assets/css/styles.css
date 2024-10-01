@@ -426,7 +426,9 @@ img.menu__img {
   margin: .25rem 0 var(--mb-3);
 }
 .footer__social{
-  font-size: 55px;
+
+  font-size: 30px;
+
   color: var(--title-color);
   margin-right: var(--mb-2);
 }
