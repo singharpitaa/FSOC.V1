@@ -207,7 +207,13 @@ img{
 .show-menu{
   top: var(--header-height);
 }
-
+.menu__container.bd-grid {
+  display: flex;
+  column-gap: 206px;
+}
+img.menu__img {
+  transform: translateX(3px);
+}
 /* Active menu */
 .active-link{
   color: var(--first-color);
@@ -277,7 +283,7 @@ img{
   display: inline-block;
   background-color: var(--first-color);
   color: #FFF;
-  padding: 3.75rem 3rem;
+  padding: 1.25rem 1.75rem;
   border-radius: .5rem;
   transition: .3s;
 }
