@@ -271,13 +271,13 @@ img{
   width: 300px;
   justify-self: center;
 }
-
-/*========== BUTTONS ==========*/
+                             
+/*========== BUTTONS ==========*/                                        
 .button{
   display: inline-block;
   background-color: var(--first-color);
   color: #FFF;
-  padding: .75rem 1rem;
+  padding: 3.75rem 3rem;
   border-radius: .5rem;
   transition: .3s;
 }
@@ -330,7 +330,6 @@ img{
 
 /*========== MENU ==========*/
 .menu__container{
-  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
 }
 
@@ -513,7 +512,6 @@ img{
   }
 
   .menu__container{
-    grid-template-columns: repeat(3, 210px);
     column-gap: 4rem;
   }
   .menu__content{
