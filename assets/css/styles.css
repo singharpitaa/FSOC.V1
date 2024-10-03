@@ -304,7 +304,7 @@ img.menu__img {
 
 .about__img{
   width: 280px;
-  border-radius: .5rem;
+  border-radius: 50px;
   justify-self: center;
 }
 
