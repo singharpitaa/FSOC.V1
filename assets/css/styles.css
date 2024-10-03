@@ -300,6 +300,7 @@ img.menu__img {
 
 .about__description{
   margin-bottom: var(--mb-3);
+  text-align: center;
 }
 
 .about__img{
