@@ -209,7 +209,7 @@ img{
 }
 .menu__container.bd-grid {
   display: flex;
-  column-gap: 206px;
+  column-gap: 80px;
 }
 img.menu__img {
   transform: translateX(3px);
