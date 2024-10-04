@@ -415,46 +415,86 @@ img.menu__img {
   margin-bottom: var(--mb-3);
 }
 /*========== FOOTER ==========*/
-.footer__container{
+.footer {
+  background-color: #1c1c1c; /* Dark background for contrast */
+  padding: 3rem 0;
+  color: #fff;
+}
+
+.footer__container {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   row-gap: 2rem;
+  column-gap: 1.5rem;
+  justify-content: space-between;
+  align-items: start;
+  padding: 5%;
 }
-.footer__logo{
-  font-size: var(--h3-font-size);
-  color: var(--first-color);
-  font-weight: var(--font-semi-bold);
+
+.footer__logo {
+  font-size: 2rem;
+  color: #f5a623; /* Bright accent color for the logo */
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
-.footer__description{
+
+.footer__description {
   display: block;
-  font-size: var(--small-font-size);
-  margin: .25rem 0 var(--mb-3);
+  font-size: 1rem;
+  color: greenyellow;
+  margin: .5rem 0 1.5rem;
 }
-.footer__social{
 
+.footer__social {
   font-size: 30px;
+  color: #f5a623; /* Accent color */
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
 
-  color: var(--title-color);
-  margin-right: var(--mb-2);
+.footer__social:hover {
+  color: greenyellow; /* White on hover */
 }
-.footer__title{
-  font-size: var(--h2-font-size);
-  color: var(--title-color);
-  margin-bottom: var(--mb-2);
+
+.footer__title {
+  font-size: 1.75rem;
+  color: #f5a623;
+  margin-bottom: 1rem;
 }
-.footer__link{
+
+.footer__link {
   display: inline-block;
-  color: var(--text-color);
-  margin-bottom: var(--mb-1);
+  color: greenyellow;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
 }
-.footer__link:hover{
-  color: var(--first-color);
+
+.footer__link:hover {
+  color: #f5a623;
+  text-decoration: underline; /* Adds emphasis on hover */
 }
-.footer__copy{
+
+.footer__copy {
   text-align: center;
-  font-size: var(--small-font-size);
-  color: var(--text-color-light);
-  margin-top: 3.5rem;
+  font-size: 0.875rem;
+  color: yellowgreen;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #333;
 }
+
+/* Hover effects for links and icons */
+.footer__social:hover,
+.footer__link:hover {
+  color: #f5a623;
+}
+
+/* Optional: Add smooth transitions for all elements */
+.footer__link, .footer__social {
+  transition: color 0.3s ease;
+}
+
 
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px){
