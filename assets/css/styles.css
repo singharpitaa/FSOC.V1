@@ -479,9 +479,18 @@ img.menu__img {
   .contact__container{
     grid-template-columns: 1.75fr 1fr;
     align-items: center;
+    color: greenyellow;
+     background-color: #1D2521;
   }
+ 
+
   .contact__button{
     justify-self: center;
+    color: greenyellow;
+     background-color: #1D2521;
+    
+    
+
   }
 }
 
